@@ -29,10 +29,10 @@ describe "lesson3" do
   end
 
   context "check class properties" do
-    subject(:class) { Person }
+  subject { Person }
 
-    it "missing search" do
-      is_expected.to respond_to(:search) 
-    end 
+  it 'missing search' do
+    is_expected.to respond_to(:search)
   end
+end
 end
